@@ -21,6 +21,8 @@ import Contact from "./pages/contact";
 import About from "./pages/About";
 import Usestatecounter from "./hooks/Usestatecounter";
 import Usestatecounter2 from "./hooks/Usestatecounter2";
+import Usestateclass from "./hooks/Usestateclass"
+import Useeffect from "./hooks/Useeffect"
 
 function App() {
   return (
@@ -82,6 +84,8 @@ function App() {
       <Style make={true} />
       <Inline />
       <Forma />
+      <Usestateclass></Usestateclass>
+      <Useeffect></Useeffect>
     </div>
   );
 }
