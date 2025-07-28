@@ -23,6 +23,10 @@ import Usestatecounter from "./hooks/Usestatecounter";
 import Usestatecounter2 from "./hooks/Usestatecounter2";
 import Usestateclass from "./hooks/Usestateclass"
 import Useeffect from "./hooks/Useeffect"
+import Usecontxt from "./hooks/Usecontxt";
+import Refff from "./hooks/Refff";
+import Timer from "./hooks/Timer";
+import Reducer from "./hooks/Reducer";
 
 function App() {
   return (
@@ -86,6 +90,10 @@ function App() {
       <Forma />
       <Usestateclass></Usestateclass>
       <Useeffect></Useeffect>
+      <Usecontxt></Usecontxt>
+      <Refff></Refff>
+      <Timer></Timer>
+      <Reducer></Reducer>
     </div>
   );
 }
